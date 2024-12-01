@@ -1,0 +1,130 @@
+/* Nav bar stlying */
+.navbar-collapse {
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-brand img {
+    height: 70px;
+    margin-right: 10px;
+}
+
+.navbar {
+    background-color: #FE6A00;
+    padding: 1rem;
+}
+
+.navbar-toggler {
+    background-color: black; 
+    color: #FE6A00; 
+}
+
+.navbar-toggler:active {
+    background-color: #333; 
+}
+
+.nav-link {
+    color: black !important;
+    font-size: 1rem;
+}
+
+/* Body */
+body {
+    background-color: #FE6A00;
+    color: white;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.bottom-text a{
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(238, 255, 0);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+#home-list{
+    margin-top: 5vh;
+}
+
+*{
+    font-family: "IBM Plex Sans", sans-serif;
+    color: black;
+}
+
+/* Footer */
+.footer {
+    color: black;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px solid black;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.footer-icon {
+    text-decoration: none;
+    color: White;
+}
+
+.footer-icon:hover {
+    color: #3b5998; 
+}
+
+.footer-email {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.footer-email:hover {
+    color: #3b5998;
+}
+
+.separator {
+    margin: 0 1rem;
+    color: black;
+    font-size: 1.5rem; 
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+.mx-3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
