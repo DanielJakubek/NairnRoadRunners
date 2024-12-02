@@ -19,6 +19,7 @@
 .navbar {
     background-color: #FE6A00;
     padding: 1rem;
+    border-bottom: 3px solid black;
 }
 
 .navbar-toggler {
@@ -39,6 +40,14 @@
 body {
     background-color: #FE6A00;
     color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
+    margin-top: 4vh;
 }
 
 .image-container {
@@ -78,6 +87,16 @@ body {
     font-family: "IBM Plex Sans", sans-serif;
     color: black;
 }
+
+/* About Us */
+.about-us-header{
+    text-decoration: underline;
+}
+
+.about-us{
+    font-size: 1.5rem;
+}
+
 
 /* Footer */
 .footer {
