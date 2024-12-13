@@ -169,5 +169,17 @@ table tr td, table tr th{
 
 .nairn-10k-links a{
     font-size: 2rem;
-    color: black;
+}
+
+.results-download{
+    font-size: 2rem;
+}
+
+.accordion-item{
+    background-color: rgba(211, 130, 240, 0) !important;
+    border: 1px solid black !important;
+}
+
+.accordion-button{
+    background-color: #FE6A00 !important;
 }
